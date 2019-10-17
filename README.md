@@ -28,3 +28,8 @@ cd emsdk
 ./emsdk activate latest
 source ~/emsdk/emsdk_env.sh #optionally set it into .bashrc
 ```
+
+Also install jsbind
+```sh
+nimble install jsbind
+```

@@ -10,6 +10,7 @@ srcDir        = "src"
 # Dependencies
 
 requires "nim >= 1.0.0"
+requires "jsbind >= 0.1.1"
 
 task buildwasm, "build nim_wasm_template":
   exec "nim c -d:emscripten -o:target/nim_wasm_template.js src/nim_wasm_template.nim"
