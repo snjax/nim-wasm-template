@@ -1,1 +1,3 @@
 nimcache/
+target/nim_wasm_template.js
+target/nim_wasm_template.wasm
